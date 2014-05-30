@@ -1,11 +1,14 @@
 #include <cstdio>
 #include <iostream>
+#include <cstdlib>
 
 #include "Events.h"
 #include "Environment.h"
 #include "Simulation.h"
 
 using std::cerr;
+using std::atoi;
+using std::atof;
 
 int main(int argc, char** argv) {
   if (argc != 5) {
